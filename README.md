@@ -3,7 +3,6 @@ README
 1. Tools Used
 - Python 3
 - Google Gemini 2.5 Flash API
-- Developed using VS Code
 
 2. Thought Process / Architecture
 - I wanted to keep the code as minimal as possible since an LLM is supposed to be used to read the Policy PDF and apply the rules. The code uploads the Loan Policy PDF to Gemini and it also sends the Application JSON to Gemini. Gemini uses the Policy PDF to evaluate the Application and returns the output of the loan. 
